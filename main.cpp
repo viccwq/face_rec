@@ -6,9 +6,11 @@
 //http://docs.opencv.org/2.4/modules/contrib/doc/facerec/facerec_tutorial.html
 
 extern int eigenfaces(const char *argv1, const char *argv2);
+extern int lbp_hist(const char *argv1);
 int main()
 {
-	eigenfaces("./at.txt", "./output");
+//	eigenfaces("./at.txt", "./output");
+	lbp_hist("./at.txt");
 	system("pause");
 	return 0;
 }
