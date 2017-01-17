@@ -29,5 +29,8 @@
     <ClCompile Include="lbp_hist.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="fill_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="eigenfaces.cpp" />
+    <ClCompile Include="fill_demo.cpp" />
     <ClCompile Include="lbp_hist.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

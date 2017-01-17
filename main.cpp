@@ -7,10 +7,12 @@
 
 extern int eigenfaces(const char *argv1, const char *argv2);
 extern int lbp_hist(const char *argv1);
-int main()
+extern int fill_demo( int argc, char** argv );
+int main( int argc, char** argv )
 {
 //	eigenfaces("./at.txt", "./output");
-	lbp_hist("./at.txt");
+//	lbp_hist("./at.txt");
+	fill_demo(argc, argv);
 	system("pause");
 	return 0;
 }
